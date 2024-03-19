@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KimSeungsu - AI developer</title>
+
+    <link rel="shortcut icon" href="assets/DMGkim.png" type="image/svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+
+    <div class="nav-full-screen" id="navFullScreen">
+        <a href="#home" onclick="closeFullScreenNav()" class="nav-link">HOME</a>
+        <a href="#portfolio" onclick="closeFullScreenNav()" class="nav-link">WORK</a>
+        <a href="#awards" onclick="closeFullScreenNav()" class="nav-link">AWARDS</a>
+        <a href="#about" onclick="closeFullScreenNav()" class="nav-link">ABOUT</a>
+        <a href="#contact" onclick="closeFullScreenNav()" class="nav-link">CONTACT</a>
+        <button class="close" onclick="closeFullScreenNav()"><img src="./assets/icons/close.svg" alt="close"></button>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <img class="navbar-logo" src="assets/DMGkim.png"">
+        <div class="nav-links">
+            <a href="#home" class="nav-link nav-link-active">HOME</a>
+            <a href="#portfolio" class="nav-link">WORK</a>
+            <a href="#awards" class="nav-link">AWARDS</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+        <button class="nav-link-btn" onclick="openFullScreenNav()"><img src="./assets/icons/menu.svg"
+                alt="menu"></button>
+    </nav>
+    <!-- navbar -->
+
+
+    <!-- introduction to skills -->
+    <div class="section-hero" id="home">
+        <h1>Hi 👋🏻 I'm KimSeungsu</h1>
+        <h1>I MAKE</h1>
+
+        <h1 class="hero-skill-heading t-gradient1" data-text="AI">AI</h1>
+        <h1 class="hero-skill-heading t-gradient2" data-text="Web">Web</h1>
+        <h1 class="hero-skill-heading t-gradient3" data-text="UI/UX">UI/UX</h1>
+    </div>
+    <!-- introduction to skills -->
+
+
+    <!-- section: technologies -->
+    <div class="section-technologies" id="tech">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Technologies</h1>
+            <h1>We use</h1>
+        </div>
+
+        <div class="row">
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/react.svg" alt="img"></div>
+            <!-- <div class="col"><img class="tech-icon-img" src="./assets/icons/vue.svg" alt="img"></div> -->
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/html.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/css.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/javascript.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/flutter.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/react_native.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/electron.svg" alt="img"></div>
+        </div>
+
+        <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/python.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/tensorflow.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/keras.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/pytorch.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/Scikit_learn.svg" alt="img" class="tech-icon-img"></div>
+        </div>
+
+        <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/numpy.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/Pandas.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/Matplotlib.svg" alt="img" class="tech-icon-img"></div>
+        </div>
+
+        <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/aws.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/googlecloud.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/firebase.svg" alt="img" class="tech-icon-img"></div>
+        </div>
+
+        <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/sketch.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/figma.svg" alt="img" class="tech-icon-img"></div>
+        </div>
+
+        <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/xd.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/photoshop.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/illustrator.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/premierepro.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/indesign.svg" alt="img" class="tech-icon-img"></div>
+        </div>
+    </div>
+    <div class="section-portfolio" id="portfolio">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Work</h1>
+            <h1>Portfolio</h1>
+        </div>
+
+
+        <div class="section-portfolio-grid">
+            <a class="portfolio-card" href="https://github.com/suk-6/AIFrontier">
+                <img src="assets/projects/tailwind/CCA.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>Lung disease object classification</h4>
+                </div>
+            </a>
+            <a class="portfolio-card" href="https://github.com/23KCF-Snoo-py/PLANT-Prediction">
+                <img src="assets/projects/tailwind/plant.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>plant growth helper</h4>
+                </div>
+            </a>
+            <a class="portfolio-card" href="https://github.com/orgs/Team-SRT/repositories">
+                <img src="assets/projects/tailwind/SRT.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>Safety Report</h4>
+                </div>
+            </a>
+            <a class="portfolio-card" href="https://github.com/SDT-CPS-Project">
+                <img src="assets/projects/tailwind/SWDV.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>Crowd accident prediction</h4>
+                </div>
+            </a>
+        </div>
+
+        <a target="_blank" data-text="MORE" class="link-more">MORE</a>
+    </div>
+
+        <div class="section-awards" id="awards">
+            <div class="section-headings">
+                <h1 class="heading-stroke-only">Awards</h1>
+            </div>
+    
+            <ul class="awards-list">
+                <li class="link-more" style="margin-bottom: 150px;">2022 Korea Code Fair Hackaton 1st</li>
+                <li class="link-more" style="margin-bottom: 150px;">2023 AppJam Hackaton 2nd</li>
+                <li class="link-more" style="margin-bottom: 150px;">2023 Korea Code SW Competition </li>
+                <li class="link-more" style="margin-bottom: 150px;">2023 SW DV</li>
+                <li class="link-more" style="margin-bottom: 150px;">2023 EBS AI frontier 2nd</li>
+                <li class="link-more" style="margin-bottom: 150px;">2023 Open AI Hackaton</li>
+                
+            </ul>
+    
+    
+        </div>
+        
+    <div class="section-about" id="about">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">About</h1>
+            <h1>Me</h1>
+        </div>
+
+        <div class="section-about-details">
+            
+            <div class="section-about-texts">
+                <p>
+                    Hi there 👋🏻, My name is <b>KimSeungsu</b>, 
+                    Sure, here's a draft for your developer about me section:
+                    
+                    As an AI developer with proficiency in web development and UI/UX design, I am dedicated to crafting solutions that alleviate everyday inconveniences for users. With a strong command over AI technologies and a keen eye for intuitive design, I strive to create user-friendly experiences that simplify complex tasks. My passion lies in leveraging technology to enhance efficiency and comfort, ultimately empowering users with seamless digital interactions.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- section:about -->
+
+
+
+
+    <!-- section: contact -->
+    <div class="section-contact" id="contact">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Let's</h1>
+            <h1>Build</h1>
+        </div>
+
+            <a class="contact-link" href="mailto:conan8548@gmail.com">
+                <img src="./assets/icons/mail.svg" alt="icon">
+                conan8548@gmail.com
+            </a>
+            <!-- <a class="contact-link" href="tel:"><img src="./assets/icons/call.svg" alt="icon">+91 12345 67890</a> -->
+            <a class="contact-link" href="http://maps.google.com/"><img src="./assets/icons/location.svg" alt="icon">
+                Seoul. Korea</a>
+        </div>
+    </div>
+    <!-- section: contact -->
+
+
+
+    <!-- section: footer -->
+    <footer class="footer">
+        <img src="assets/DMGkim.png"class="footer-logo">
+        <p>&copy; Copyright by Dmgkim(KimSeungsu) <span id="currentYear">2023</span></p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/seungsu0214/" class="social-link">
+                <svg src="assets/DMGkim.png"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><img src="assets/instagram.png" width="35"></svg>
+            <a href="https://github.com/DMGkim" class="social-link">
+                <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)"/></svg>
+            </a>
+        </div>
+    </footer>
+    <!-- section: footer -->
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
